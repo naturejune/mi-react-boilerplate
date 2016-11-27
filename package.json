@@ -2,7 +2,7 @@
   "name": "mi-react-boilerplate",
   "version": "0.1.0",
   "description": "react boilerplate",
-  "main": "lib/index.js",
+  "main": "lib/mi.js",
   "author": "jiangzhg",
   "license": "MIT",
   "dependencies": {
