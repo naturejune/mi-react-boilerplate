@@ -6,6 +6,9 @@ module.exports = {
     library: 'mi',
     libraryTarget: 'umd'
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   externals: {
     react: {
       root: 'React',
@@ -24,4 +27,4 @@ module.exports = {
       loader: 'style-loader!css-loader?modules'
     }]
   }
-}
+};

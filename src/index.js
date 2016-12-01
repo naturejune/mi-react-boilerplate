@@ -1,2 +1,1 @@
-import Demo from './components/demo/Demo';
-export { Demo };
+export default from './components/Demo';
