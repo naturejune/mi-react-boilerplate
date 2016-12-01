@@ -3,7 +3,7 @@ module.exports = {
   output: {
     filename: 'index.js',
     path: __dirname + '/lib',
-    library: 'mi',
+    library: 'Mi',
     libraryTarget: 'umd'
   },
   resolve: {
