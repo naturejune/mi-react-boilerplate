@@ -1,7 +1,6 @@
 # mi-react-boilerplate
 
 # TODO
-- eslint
-- scripts
-- npm
+- hmr 
+- code split
 - yeoman

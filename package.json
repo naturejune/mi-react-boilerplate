@@ -4,8 +4,10 @@
   "description": "react boilerplate",
   "main": "lib/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.prod.js",
-    "eslint": "eslint src/**"
+    "start": "webpack-dev-server --config webpack.config.dev.js --hot --inline --content-base ./dist",
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "eslint": "eslint --ext js,jsx src/**"
   },
   "pre-commit": [
     "eslint"
@@ -29,9 +31,12 @@
     "eslint-plugin-import": "^2.1.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.6.0",
+    "html-webpack-plugin": "^2.24.1",
     "pre-commit": "^1.1.3",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   }
 }

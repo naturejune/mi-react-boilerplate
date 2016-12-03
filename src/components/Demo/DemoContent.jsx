@@ -15,7 +15,7 @@ class DemoContent extends React.Component {
   }
 
   render() {
-    return <span>this.props.content</span>;
+    return <span>{this.props.content}</span>;
   }
 }
 
