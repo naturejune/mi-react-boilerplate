@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 class DemoContent extends React.Component {
   static propTypes = {
-    content: React.PropTypes.string.isRequired
-  };
-
-  static defaultProps = {
-    content: 'Demo Content Component'
-  };
-
-  constructor (props) {
-    super(props)
-    this.displayName = 'DemoContent'
+    content: React.PropTypes.string.isRequired,
   }
 
-  render () {
-    return <span>this.props.content</span>
+  static defaultProps = {
+    content: 'Demo Content Component',
+  }
+
+  constructor(props) {
+    super(props);
+    this.displayName = 'DemoContent';
+  }
+
+  render() {
+    return <span>this.props.content</span>;
   }
 }
 
-export default DemoContent
+export default DemoContent;
