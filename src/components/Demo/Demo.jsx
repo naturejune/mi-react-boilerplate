@@ -1,3 +1,4 @@
+import DemoContent from './DemoContent'
 import styles from './Demo.module.css'
 
-export default () => <p className={styles.root}>Demo</p>
+export default () => <p className={styles.root}><DemoContent /></p>
