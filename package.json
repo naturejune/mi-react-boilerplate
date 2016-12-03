@@ -4,7 +4,7 @@
   "description": "react boilerplate",
   "main": "lib/index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js --hot --inline --content-base ./dist",
+    "start": "node server.js",
     "build:dev": "webpack --config webpack.config.dev.js",
     "build:prod": "webpack --config webpack.config.prod.js",
     "eslint": "eslint --ext js,jsx src/**"
